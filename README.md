@@ -1,6 +1,26 @@
 # birdsOfEurope
 tracking flight trajectories for birds
 
+
+
+![Screenshot (91)](https://user-images.githubusercontent.com/61441879/196739400-533839af-9e5e-497c-a329-7f2ac671e984.png)
+
+![Screenshot (90)](https://user-images.githubusercontent.com/61441879/196739417-62782406-3e55-4fef-b9fa-44783a5bfd69.png)
+
+![Screenshot (89)](https://user-images.githubusercontent.com/61441879/196739434-eb217a95-7688-4f9b-9f1d-e19e673eb819.png)
+
+#IMPORTING LIBRARIES 
+```
+import pandas as pd 
+import numpy as np 
+import streamlit as st 
+import matplotlib.pyplot as plt 
+```
+
+
+
+
+
 <cite>
 Data cite 
 {
@@ -100,20 +120,3 @@ Data cite
   "state": "findable"
 }
 </cite>
-
-![Screenshot (91)](https://user-images.githubusercontent.com/61441879/196739400-533839af-9e5e-497c-a329-7f2ac671e984.png)
-
-![Screenshot (90)](https://user-images.githubusercontent.com/61441879/196739417-62782406-3e55-4fef-b9fa-44783a5bfd69.png)
-
-![Screenshot (89)](https://user-images.githubusercontent.com/61441879/196739434-eb217a95-7688-4f9b-9f1d-e19e673eb819.png)
-
-#IMPORTING LIBRARIES 
-```
-import pandas as pd 
-import numpy as np 
-import streamlit as st 
-import matplotlib.pyplot as plt 
-```
-
-
-
