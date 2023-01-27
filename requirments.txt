@@ -1,7 +1,5 @@
-streamlit==0.68.1
-pandas==0.25.3
-base58==2.0.0
+streamlit==1.12.2
+pandas==1.5.0
+pydeck==1.14.0
 matplotlib==3.1.3
-numpy==1.18.1
-yfinance==0.1.54
-lxml==4.5.1
+python3==3.8.10
