@@ -39,7 +39,7 @@ def type_hexagon_layer_map(data):
 def year_slider_map(data):
 	st.header("Places of observation per year. Starting from 2006 for all types.")
 	year_slider2 = st.slider("Year range:", 2006,2018)
-	original_data = data
+	
 	data = data[data['year'] == year_slider2]
 	HEXAGON_LAYER_DATA = data  
 	# Define a layer to display on a map
@@ -64,8 +64,8 @@ def year_slider_map(data):
 
 def load_data():
 	data = pd.read_csv("new_data.csv")
-	data.columns = ['id', 'type', 'cd', 'lat', 'lon', 'day', 'month', 'year']
-	data.dropna(subset=['lat','lon','year','day','month','cd'],inplace=True)
+	data.columns = ['id', 'type', 'cd', 'lat', 'lon', 'year']
+	data.dropna(subset=['lat','lon','year','cd'],inplace=True)
 	return data
 
 def country_code(data):
@@ -107,9 +107,7 @@ def main():
 		st.write(data)
 
 
+main()
 
-#st.header("Yearly observations")
-#year_slider = st.slider("Specify year:",2006,2018)
-#st.map(data.query("year == @year_slider")[['lat','lon']])
 
 
